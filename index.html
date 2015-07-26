@@ -1,51 +1,869 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
     <meta charset="UTF-8">
-    <title>Sneha Kulkarni by SnehaKK</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <title>Sneha Kulkarni | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.easy-pie-chart.css">
+    <link rel="stylesheet" href="css/styles-red.css" title="mainStyle">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/style-designr.css">
+
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+    <script src="js/modernizr.custom.32033.js"></script>
+
+    <!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
   </head>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Sneha Kulkarni</h1>
-      <h2 class="project-tagline">Full Stack Developer</h2>
-    </section>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-sneha-kulkarnis-portfolio-page" class="anchor" href="#welcome-to-sneha-kulkarnis-portfolio-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to Sneha Kulkarni's Portfolio Page.</h3>
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src="img/loading_profile_pic.jpeg" class="animated fadeInDown" alt="">
+            <h4>Sneha Kulkarni</h4>
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="go-down">
+        <a href="#whoWeAre">
+            <i class="fa fa-angle-down fa-3x"></i>
+        </a>
+    </div>
+    <!-- Wrap all page content here -->
+    <div id="wrap" class="home">
 
-<p>Thank you for visiting my page. I will be pushing in updates related to my projects here.</p>
+        <header class="masthead">
+            <div class="slider-container" id="slider">
+                <div class="tp-banner-container">
+                    <div class="tp-banner">
+                        <ul>
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
 
-<p>Thank You!</p>
+                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-150" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
+                                    I Develop
+                                </div>
+                                <div class="tp-caption italic large_white_light sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-100" data-speed="700" data-start="1500" data-easing="Power4.easeOut">
+                                    Strong .
+                                </div>
+                                <div class="tp-caption italic large_white_light sfb hidden-xs" data-x="left" data-y="center" data-hoffset="147" data-voffset="-100" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
+                                    Beautiful .
+                                </div>
+                                <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="335" data-voffset="-100" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
+                                    Functional.
+                                </div>
+                                <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="700" data-start="2000" data-easing="Power4.easeOut">
+                                    Applications
+                                </div>
+                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="0" data-voffset="30" data-speed="1000" data-start="1900" data-easing="Power4.easeOut">
+                                    <a href="#about" class="btn btn-naked btn-lg">Know Me Better<span class="fa fa-angle-right"></span></a>
+                                </div>
+                                <div class="tp-caption sft fadeout" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                    <!-- <img src="img/sneh-new.png" class="macbook-image" alt=""> -->
+                                </div>
+                            </li>
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
 
-<h3>
-<a id="github-profile" class="anchor" href="#github-profile" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Profile</h3>
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sft fadeout" data-x="right" data-y="center" data-hoffset="-20" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                    <!-- <img src="img/samples/macbook-bl.png" class="macbook-image" alt=""> -->
+                                    <iframe width="600" height="480" class="macbook-image" src="https://www.youtube.com/embed/eJN-FKopwJU?rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
 
-<p>All my project source codes can be found at <a href="https://github.com/SnehaKK" class="user-mention">@SnehaKK</a> .</p>
+                                <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="75" data-voffset="0" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    <a href="#portfolio" class="btn btn-primary btn-lg">CHECK OUT MY WORK</a>
+                                </div>
+                            </li>
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
 
-      <footer class="site-footer">
+                                <!-- LAYER NR. 1 -->
+                                <!-- <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                    <img src="img/samples/iphone.png" alt="">
+                                </div> -->
+                                <div class="tp-caption large_white_bold sft" data-x="center" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                    <h1>welcome to my portfolio</h1>
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="380" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    I Develop
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="380" data-y="center" data-hoffset="0" data-voffset="10" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    Beautiful & Functional
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="380" data-y="center" data-hoffset="0" data-voffset="60" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    Websites, Mobile & Web Apps
+                                </div>
+                                <div class="tp-caption sfb hidden-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="150" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                                    <a href="#get-in-touch" class="btn btn-empty btn-lg">CONTACT ME</a>
+                                </div>
+                            </li>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+                        </ul>
+                        <div class="tp-bannertimer"></div>
+                    </div>
+                </div>
 
-    </section>
+            </div>
 
-            <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-54539080-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+            <!-- Fixed navbar -->
+            <div class="navbar navbar-static-top" id="nav" role="navigation">
+               <!--  <div class="theme-switcher">
+                    <div class="colors">
+                        <a href="javascript:void(0)" class="blue"></a>
+                        <a href="javascript:void(0)" class="orange"></a>
+                        <a href="javascript:void(0)" class="red"></a>
+                    </div>
+                    <a href="javascript:void(0)" class="Switcher"><span class="fa fa-pencil fa-lg"></span></a>
+                </div> -->
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-align-justify"></i>
+                        </button>
+                        <a class="navbar-brand" href="#">                            
+                            <img src="img/profile_pic.jpeg" alt="">
+                            <b>SNEHA KULKARNI</b>
+                        </a>
+                    </div>
 
-  </body>
-</html>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#slider">Home</a>
+                            </li>
+                            <li><a href="#about">About</a>
+                            </li>
+                            <li><a href="#services">Interests</a>
+                                <li><a href="#portfolio">My Work</a>
+                                </li>
+                                <li><a href="#get-in-touch">Contact</a>
+                                </li>
+                            <!-- <li><a href="blog-archive.html">blog</a>
+                        </li> -->
+                        <li class="social-nav visible-lg">
+                            <a href="mailto:kulsneha04@gmail.com?subject=Getting in touch"><i class="fa fa-envelope"></i></a>
+                            <a href="https://github.com/SnehaKK" target="_blank"><i class="fa fa-github"></i></a>
+                            <a href="http://www.linkedin.com/in/SnehlataKulkarni" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <!-- <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a> -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!--/.container -->
+        </div>
+        <!--/.navbar -->
 
+    </header>
+
+       <!--  <section id="whoWeAre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>I am Sneh<span>a</span>
+                            </h1><br>
+                                <h4 align="justify">
+                                I am a full-stack developer living in San Jose, California.
+                                I have worked as Programmer Analyst in <b>Cognizant Technology Solutions </b> and as Software Engineering Intern, <b> Apple </b> Inc (FileMaker). </h4>
+                                <h4 align="justify">I am passionate about semantics and standards based development. I am an ardent technophile. Efficient code, intuitive user experiences and pushing computer standards really knock my socks off. In addition to my passion for technology, I am interested in Dance (Indian Classical, Folk Dance), Music and Cooking. </h4>
+                                </p>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media scrollpoint sp-effect2">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-star fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">clean & clear</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                        <div class="media scrollpoint sp-effect2">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-support fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">24/7/365 support</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media right scrollpoint sp-effect1">
+                            <a class="pull-right" href="#">
+                                <i class="media-object fa fa-send fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">multipurpose layout</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                        <div class="media right scrollpoint sp-effect1">
+                            <a class="pull-right" href="#">
+                                <i class="media-object fa fa-slack fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">pixed perfect</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>I am Sneha<span></span>
+                            </h1><br>
+                            <h4 align="justify">
+                                I am a full-stack developer living in San Jose, California.
+                                I have worked as Programmer Analyst in <b>Cognizant Technology Solutions </b> and as Software Engineering Intern, <b> Apple </b> Inc (FileMaker). </h4>
+                                <h4 align="justify">I am passionate about semantics and standards based development. I am an ardent technophile. Efficient code, intuitive user experiences and pushing computer standards really knock my socks off. In addition to my passion for technology, I am interested in Dance (Indian Classical, Folk Dance), Music and Cooking. </h4>
+                            </p>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12 scrollpoint sp-effect4">
+                        <img src="img/sneh-new.png" class="img-responsive img-center" alt="">
+                    </div>
+                    <!-- <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 scrollpoint sp-effect4">
+                                <img src="img/sneh-new.png" class="img-responsive img-center" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-university fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Why Bondy</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-user fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">what we do</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-umbrella fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">our history</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-taxi fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Achievments</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eligendi ipsa repellendus aspernatur corrupti ex soluta vel ad quibusdam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>Areas of Interest</h1>
+                            <h4>I am Fullstack Engineer with over 4 years of development experience. Here are a few areas that I am passionate about and would love to work in. More about the projects in each can be found in the porfolio section.</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="media media-services right scrollpoint sp-effect1">
+                                    <a class="pull-right" href="#">
+                                        <i class="media-object fa fa-mobile fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Mobile App Development</h4>
+                                        <p>I have developed Android and iOS applications. My latest app was SmartCart, which helps shoppers keep a tab on their purchases in the supermarket.</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services right scrollpoint sp-effect1">
+                                    <a class="pull-right" href="#">
+                                        <i class="media-object fa fa-users fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">UI / UX Development and Web Deployment</h4>
+                                        <p>Using Angular JS & Bootstrap I have developed several websites with clean design and responsive UI. I have also worked on deployment platforms like Amazon EC2 & Salesforce HEROKU.</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services right scrollpoint sp-effect1">
+                                    <a class="pull-right" href="#">
+                                        <i class="media-object fa fa-cloud fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Cloud Technologies</h4>
+                                        <p>I created a project, SyncDrive, to unify user's cloud storage. It provides a unified platform for users of dropbox, box, Google Drive Accounts to transfer file from one provider to the other.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media media-services scrollpoint sp-effect2">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-video-camera fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Augmented Reality</h4>
+                                        <p>Using MetaIO SDK I created a product called HomeAR. HomeAR is an Android application which allows customers to place a 3D image of any desired furniture on to any live camera feed.</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services scrollpoint sp-effect2">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-shopping-cart fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Enterprise Application Development</h4>
+                                        <p>I have worked for several companies in the past including Apple, where I have developed enterprise software on the Mac OSX platform. I am  also a proficient fullstack developer Python(Flask).</p>
+                                    </div>
+                                </div>
+                                <div class="media media-services scrollpoint sp-effect2">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-area-chart fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Data Mining and Analytics</h4>
+                                        <p>Having implemented clustering and predictive algorithms in R, I have analyzed health data to recommend hospitals based on patient satisfaction survey and better medical facilities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h3>My skills</h3>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="95">
+                            <span>70%</span>
+                        </div>
+                        <h4 class="skill-detail">Python (Flask)</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-4 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="95">
+                            <span>70%</span>
+                        </div>
+                        <h4 class="skill-detail">Javascript</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-4 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="75">
+                            <span>65%</span>
+                        </div>
+                        <h4 class="skill-detail">Java (Android)</h4>
+                    </div>
+                    <div class="col-md-3 col-sm-4 scrollpoint sp-effect6 text-center">
+                        <div class="chart" data-percent="55">
+                            <span>55%</span>
+                        </div>
+                        <h4 class="skill-detail">Bootstrap/AngularJS</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  id="portfolio">
+
+            <div id="portfolio-header" class="row text-center">
+                <div class="col-md-8 col-md-push-2 clearfix">
+                    <div class="section-heading scrollpoint sp-effect3">
+                        <h1><span>work</span> I am proud of</h1>
+                        <h4>Displayed below are some of the projects that I have developed.</h4>
+                        <!-- <span class="divider"></span> -->
+                    </div>
+                </div>
+            </div>
+            <div class="row  text-center">
+                <!--==== Portfolio Filters ====-->
+                <div id="filter-works">
+                    <ul>
+                        <li class="active">
+                            <a href="#" data-filter="*">All</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".web-development">Web Development</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".app-development">App Development</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".data-analytics">Data Analytics</a>
+                        </li>
+                        <li>
+                            <a href="#" data-filter=".ar">Augmented Reality</a>
+                        </li>
+                    </ul>
+                </div><!--End portfolio filters -->    
+            </div><!--End portfolio header -->
+            <span class="divider"></span>
+            <!-- ***************  mailto:hackernari@gmail.com  ******************** -->
+            <div class="container masonry-wrapper scrollimation fade-in">
+
+                <div id="projects-container">
+                    <!-- HomeAR -->
+                    <a class="project-item web-development app-development ar" href="https://homear.herokuapp.com" data-images="img/projects/HomeAR/4_intro.jpg,img/projects/HomeAR/13_key_objectives.jpg,img/projects/HomeAR/3_features.jpg,img/projects/HomeAR/6_connectivity_diagram.jpg,img/projects/HomeAR/7_high_level_architecture.jpg,img/projects/HomeAR/8_low_level_architecture.jpg,img/projects/HomeAR/10_technologies.jpg,img/projects/HomeAR/15_3D_rendering.jpg,img/projects/HomeAR/20_mobile_1.jpg,img/projects/HomeAR/20_mobile_2.jpg,img/projects/HomeAR/17_server_backend.jpg,img/projects/HomeAR/18_web_frontend_1.jpg">
+
+                        <img class="img-responsive project-image" src="img/projects/homear_cover.jpg" alt="">
+
+                        <div class="hover-mask">
+                            <h2 class="project-title">HomeAR: Augmented Reality at Home</h2>
+                            <p>Enhancing Customer Experience</p>
+                        </div>
+                        <div class="sr-only project-description">
+                            <h3>Enhancing Customer Experience using Augmented Reality and Data Analytics</h3><br>
+                            <p class="clearfix">The project is centered  on developing a mobile app that would enhance the shopping experience of customers purchasing specific set of items for their house using augmented reality. Also, in a long run it will give a way for retailers to target customers based on their purchase history and patterns for providing them with custom coupons.</p>
+                            <p>The main features of this application are: 
+                                <ul>
+                                    <li>Maintaining User profile: Our mobile application manages user-customized profile and maintains the registration details of all the users accessing the application. </li>
+                                    <li>Selection: This feature lets a user to decide and select their desired category from the catalog list provided by the application. </li>
+                                    <li> Visualize: This extends the selection feature by allowing the users to visualize the selected items using augmented reality characteristic of our mobile application.</li>
+                                    <li>Decision Making: The support for product visualization helps in assisting the users to take proper decisions while purchasing items in the later period. The users will be able to judge if the items they buy will go in place with other items in the environment or not.</li>
+                                    <li>Help Retailer growth: Suggest retailer businesses established outside to exercise this mobile app implementation in long run for maintaining a strong profile in the current market trends.</li>
+                                </ul>
+                            </p>
+                            <!-- <img class="img-responsive img-center" src="img/projects/HomeAR/5_ar_quote_c.png" alt=""> -->
+                            <p>
+                                This mobile app would change the way people would select and visualize items that they want to purchase. Also, it would immensely help in giving an idea about augmented reality to the retailers in their business by targeting the right customers in future.
+                            </p>
+                        </div>
+                    </a>
+                    <!-- ==============================================
+                    SINGLE PROJECT ITEM
+                    =============================================== -->
+                    <!-- CMPE 202 Kinect -->
+                    <a class="project-item web-development ar-game-design" href="assets/Presentation.pdf" data-images="img/projects/CMPE202/CatchMe.png,img/projects/CMPE202/Level1.png,img/projects/CMPE202/Level2.png,img/projects/CMPE202/Level3.png,img/projects/CMPE202/ScrumCard.png,img/projects/CMPE202/ActivityDiagram.png,img/projects/CMPE202/HomeScreen.png">
+
+                        <img class="img-responsive project-image" src="img/projects/cmpe202_cover.png"  alt=""><!--Project thumb -->
+                        
+                        <div class="hover-mask">
+                            <h2 class="project-title">Cloudy MeatBall: A Kinect Game in Greenfoot (Java)</h2><!--Project Title -->
+                            <p>Motion based Kinect Game</p><!--Project Subtitle -->
+                        </div>
+                        
+                        <!--==== Project Preview HTML ====-->
+                        
+                        <div class="sr-only project-description">
+                            <p class="clearfix">The game can be played on  a Mac, Windows or Linux system with Java installed and has a Microsoft Kinect sensor connected to it. The game initially calibrates the players arms, legs and their position. Once successfully calibrated the game begins. The player can move right or left to collect the food items falling from the sky. To make the game more challenging there are animals entering from left and right of the screen. The player can lift his left had to shoot bullets on these animals. Alternatively the player can jump to save himself from these animals.
+                            </p>
+                            <p>Green foot is a platform to learn object oriented programming in Java. Green foot is visual and interactive. Visualization and Interaction tools are built into the platform. These tool include modules to interact with the Kinect Sensor. 
+                            </p>
+                            <p><h4>Design Patterns Used</h4>
+                                <ul>
+                                    <li>a) Strategy Pattern
+                                        <p>
+                                            Strategy Pattern allows the flexibility of choosing one algorithm or module from a set of algorithms or modules based on runtime conditions. In the game strategy pattern was used to keep track of score, items consumed and monsters killed
+                                        </p>
+                                    </li>
+                                    <li>b) State Pattern 
+                                        <p>
+                                            State Pattern allows an object to alter its behavior when its internal state changes. In the game the state pattern was used to keep track of levels. There were three beginner levels, intermediate and advanced. 
+                                        </p>
+                                    </li>
+                                    <li>c) Singleton Pattern
+                                        <p>
+                                            Singleton Pattern restricts the initialization of a class to one object. In the game the singleton pattern was used to create one player object. 
+                                        </p>
+                                    </li>
+                                    <li>b) Factory Pattern
+                                        <p>
+                                            The Factory pattern solves the problem of creating different objects without specifying the exact class of object that will be created. In the game the factory pattern was used to create different kinds of ammunition for different gestures.
+                                        </p>
+                                    </li> 
+                                </ul>
+                            </p>
+                            <p><h3>About Scrum and Agile methodology</h3>This project was developed within the estimated time using Scrum and Agile methodology. These processes helped us with task division, team self management and the ability to adapt to emerging requirements.
+                            </p>
+
+                        </div>
+                    </a>
+                    <!-- ==============================================
+                    END PROJECT ITEM
+                    =============================================== --> 
+                    <!-- Apk Info Script -->
+                    <a class="project-item web-development app-development" href="https://github.com/SnehaKK/Android-Apk-Info" target="_blank" data-images="img/projects/ApkInfoProject/01_home_page.png,img/projects/ApkInfoProject/02_select_files.png,img/projects/ApkInfoProject/03_upload_files.png,img/projects/ApkInfoProject/04_generate_result_1.png,img/projects/ApkInfoProject/04_generate_result_2.png,img/projects/ApkInfoProject/05_history_1.png,img/projects/ApkInfoProject/05_history_2.png">
+
+                        <img class="img-responsive project-image" src="img/projects/apkinfo_project_cover.png"  alt="">
+
+                        <div class="hover-mask">
+                            <h2 class="project-title">Android Apk Information</h2>
+                            <p>Android Script: GitHub Project</p>
+                        </div>
+                        <div class="sr-only project-description">
+                            <p class="clearfix">
+                                In this project I have written a script reads the information about an android apps extracted from mobile.
+                            </p>
+                            <p>What does this project do?
+                                <ul>
+                                  <li>1. Checks for the extracted apks for format.</li>
+                                  <li>2. Can upload one or more files to the server.</li>
+                                  <li>3. Runs "aapt d badging (apk_path)" command to obtain APK File Name, Application Name, Package Name, Build Version Name, Version Code, and Platform Build Version Name information.</li>
+                                  <li>4. Delete the Apk files uploaded from the server.</li>
+                                  <li>5. Store the results in a consolidates history seggregated by date and time.</li>
+                              </ul>
+                          </p>
+                      </div>
+                  </a>
+                  <!-- CMPE 239 ECCONIA -->
+                  <a class="project-item web-development data-analytics" href="https://github.com/SnehaKK/ecconia" data-images="img/projects/CMPE239/chart0.png,img/projects/CMPE239/chart.png,img/projects/CMPE239/chart0.png,img/projects/CMPE239/chart4.png,img/projects/CMPE239/image1.png,img/projects/CMPE239/image2.png,img/projects/CMPE239/image3.png,img/projects/CMPE239/kdd_process.png,img/projects/CMPE239/soil_quality.png,img/projects/CMPE239/soil_quality.png">
+
+                    <img class="img-responsive project-image" src="img/projects/cmpe239_cover.png"  alt="">
+
+                    <div class="hover-mask">
+                        <h2 class="project-title">Effect of Climate Change on Indian Agriculture</h2>
+                        <p>A Data Analytics Project</p>
+                    </div>
+                    <div class="sr-only project-description">
+                        <h3>Smarter Agriculture using Soil Prediction</h3>
+                        <p class="clearfix">Agriculture is a major contributing factor to the Indian economy. This comes as no surprise since every year it contributes about 16% to the Indian economy and provides 10% to the economy owing to trade exports. More than 60% of the population is dependent on agriculture either for employment or as an essential part in their work flow process. 
+                        </p>
+                        <p>Infrared spectroscopy utilized infrared waves which have a frequency lower than the frequency of visible light.The instrument with which this process is carried out is the infrared spectrometer which produces an  infrared spectrum. The main principle on which infrared spectroscopy works is the fact that when any object  is exposed to light, some part of the light is absorbed by it molecules. The amount of light absorbed depends on  the  structure  of  the  object.  Other  applications  of  infrared  spectroscopy  is  finding  out  the  blood  alcohol  content of a drunk driver. This  technique  is very useful, since it is efficient and accurate. Since this technique is non destructive, soil must not be dug out to analyze it. The reading instruments can deliver a reading when kept at a close proximity.
+                        </p>
+                        <p>The project deals with developing an application, which will learn the composition of a soil from infrared spectroscopy measurements. On analyzing the measurements and calibrating the readings with the conclusion from soil testing labs, the application will learn how to predict the quality of a soil when given a set of infrared spectroscopy measurements.
+                        </p>
+
+                    </div>
+                </a>
+                <!-- CMPE 275 MOOC -->
+                <a class="project-item web-development" href="https://github.com/SnehaKK/MOOC" data-images="img/projects/CMPE275/architecture.jpg,img/projects/CMPE275/ImageUrls.jpg,img/projects/CMPE275/databaseoutput.png,img/projects/CMPE275/testcase1.png,img/projects/CMPE275/testcase2.png">
+
+                    <img class="img-responsive project-image" src="img/projects/cmpe275_cover.jpg" alt="">
+
+                    <div class="hover-mask">
+                        <h2 class="project-title">MOOC: Massive Open Online Course</h2>
+                        <p>Collaborative Flexible Network</p>
+                    </div>
+                    <div class="sr-only project-description">
+                        <p class="clearfix">MOOCs or Massive Online Open Courses based on Open Educational Resources (OER) might be one of the most versatile ways to offer access to quality education, especially for those residing in far or disadvantaged areas. And this project analyzes the state of the art on MOOCs, exploring open research questions and setting interesting topics and goals for further research. Finally, it proposes a framework that includes the use of software agents with the aim to improve and personalize management, delivery, efficiency and evaluation of massive online courses on an individual level basis.</p>
+                        <p>The project ensures a stable communication across multiple servers in a dynamic overlay network. In a decentralized, loosely coupled, service oriented architecture; a significant amount of time is spent on reliability and scalability aspects of the system.The major challenges that a distributed network has to deal with include storage and retrieval of data, establishing connection across the servers, promptly responding to the requests and graceful handling of errors. The project has several design concerns as mentioned below that  are addressed in the implementation:</p>
+                        <img class="img-responsive img-center" src="" alt="">
+                        <p>Inspecting the request and response type.</p>
+                        <ul>
+                          <li>Understanding DNS Resolution and IP Identification between the servers and requesting nodes i.e. client</li>
+                          <li>Heterogeneous development and training environments.</li>
+                          <li>Testing options are limited because assessments have to be conducted using automated tools and allowing limited peer interaction</li>
+                      </ul>
+                      <p>My approach to solve these problems involves multiple technologies that not only help in solving network communication problems, storage and retrieval but also set global standards to make this communication system interoperable.</p>
+                  </div>
+              </a>
+              <!-- CMPE 274 Business Intelligence in Health-->
+              <a class="project-item web-development" href="" data-images="img/projects/CMPE274/HospitalInfoOverview.PNG,img/projects/CMPE274/CommunicationOverview.PNG,img/projects/CMPE274/Insurance_Dashboard.png,img/projects/CMPE274/map-reduce.png,img/projects/CMPE274/OveralRatingOverviewOverview.PNG,img/projects/CMPE274/Physician_Dashboard.png,img/projects/CMPE274/reduce_program.png,img/projects/CMPE274/SurveryResultofHospdefrecomendedNO.png">
+
+                <img class="img-responsive project-image" src="img/projects/cmpe274_cover.png" alt="">
+
+                <div class="hover-mask">
+                    <h2 class="project-title">BI in Healthcare</h2>
+                    <p>Find best medical facilities nearby</p>
+                </div>
+                <div class="sr-only project-description">
+                    <p class="clearfix">Big Data is a popular term used to describe the exponential growth and availability of data, both structured and unstructured. And big data may be as important to business – and society – as the Internet has become. More data may lead to more accurate analyses.</p>
+                    <p>Big data analytics in healthcare is evolving into a promising field for providing insight from very large data sets and improving outcomes while reducing costs. Big data in healthcare refers to electronic health data sets so large and complex that they are difficult to manage with traditional software and/or hardware.Big data in healthcare is overwhelming not only because of its volume but also because of the diversity of data types and the speed at which it must be managed. The totality of data related to patient healthcare and well-being make up “big data” in the healthcare industry. When big data is synthesized and analyzed, healthcare providers and other stakeholders in the healthcare delivery system can develop more thorough and insightful diagnoses and treatments, resulting in higher quality care at lower costs and in better outcomes overall.</p>
+                    <img class="img-responsive img-center" src="" alt="">
+                    <p>By digitizing, combining and effectively using big data, healthcare organizations ranging from single-physician offices and multi-provider groups to large hospital networks and accountable care organizations stand to realize significant benefits.</p>
+                </div>
+            </a>
+            <!-- CMPE 277 CartIn -->
+            <a class="project-item app-development" href="https://github.com/SnehaKK/CartIn" data-images="img/projects/CMPE277/images001.jpg,img/projects/CMPE277/images002.jpg,img/projects/CMPE277/images003.jpg,img/projects/CMPE277/images004.jpg,img/projects/CMPE277/images005.jpg,img/projects/CMPE277/images006.jpg">
+
+                <img class="img-responsive project-image" src="img/projects/cmpe277_cover.jpg" alt="">
+
+                <div class="hover-mask">
+                    <h2 class="project-title">CartIn: A Smart budgeting app for your cart</h2>
+                    <p>Android Geolocation-based Budgeting App</p>
+                </div>
+                <div class="sr-only project-description">
+                    <p class="clearfix">A Smart Cart App system calculates the total cost in the cart before going to the billing counter.This is a very useful app to control your budget. It takes calculation to desired precision. Takes in decimal Values. Tracks your location and would suggest where you should buy which items. </p>
+                    <p>t also maintains an inventory of your whole shopping list. Seamless addition and updating data and prices. The App basically calculates the item amount, total cost and let you know how much budget is remaining depending upon the items that you put into the cart. The app can be installed on an android device by downloading apk file.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+            <!-- ==============================================
+            PROJECT PREVIEW MODAL
+            =============================================== --> 
+            <div id="project-modal" class="modal fade">
+
+                <div class="modal-dialog" style="width:80%;max-width:1140px;padding-top:100px;">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>                        
+                        <div class="modal-body">
+                            <div class="left-col">
+                                <img class="img-responsive" src="img/imac.png" alt="">
+                                <div class="loader"></div>
+                                <div class="image-wrapper"></div>
+                            </div>
+                            
+                            <h1></h1>
+                            
+                            <div class="project-descr"></div>
+                            
+                            <div class="clearfix"></div>
+                            
+                            <p class="text-center"><a class="btn btn-theme" target="_blank"><i class="fa fa-external-link"></i>Visit Website</a></p>
+
+                        </div><!-- End modal-body -->
+                        
+                    </div><!-- End modal-content -->
+                    
+                </div><!-- End modal-dialog -->      
+            </div><!-- End modal -->
+            
+        </section><!-- End portfolio section -->
+
+        <section id="twitter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading white scrollpoint sp-effect3">
+                            <h1>Tech @ twitter</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="carousel-twitter" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-twitter" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-twitter" data-slide-to="1"></li>
+                            <li data-target="#carousel-twitter" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <a class="twitter-timeline" href="https://twitter.com/hashtag/android" data-widget-id="624688132349280257">#android Tweets</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <a class="twitter-timeline" href="https://twitter.com/hashtag/ios" data-widget-id="624691743850508288">#ios Tweets</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <a class="twitter-timeline" href="https://twitter.com/hashtag/iot" data-widget-id="624691246414479361">#iot Tweets</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <!-- href="https://twitter.com/snehawalvekar" -->
+                        <a href="https://www.twitter.com" target="_blank" class="btn btn-empty text-center">
+                            <i class="fa fa-twitter"></i> Follow
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="get-in-touch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>get in touch</h1>
+                            <h4>Please feel free to shoot me an email regarding any freelance projects or information about my projects. I would be more than happy to help!</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-details">
+                            <div class="detail">
+                                <h4>SNEHA KULKARNI</h4>
+                                <p>101 E San Fernando St, San Jose, California, USA</p>
+                            </div>
+                            <div class="detail">
+                                <h4>call me</h4>
+                                <p>+1 415 8431649</p>
+                            </div>
+                            <div class="detail">
+                                <h4>email me</h4>
+                                <p>kulsneh04@gmail.com</p>
+                            </div>
+                            <div class="detail">
+                                <ul class="clearfix">
+                                    <li><a href="mailto:kulsneha04@gmail.com?subject=Getting in touch"><i class="fa fa-envelope"></i></a>
+                                    </li>
+                                    <li><a href="https://github.com/SnehaKK" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    <li> <a href="https://www.linkedin.com/in/snehlatakulkarni" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="https://www.twitter.com/snehawalvekar" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                                        <!-- <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                                        </li>
+                                        <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <form name="sendMessage" id="contactForm" action="http://formspree.io/kulsneha04@gmail.com" method="POST" >
+                                <input type="hidden" name="_next" value="http://snehakk.github.io/" />
+                                <div class="form-group has-feedback left">
+                                    <input type="text" name="name" class="form-control" placeholder="NAME">
+                                    <i class="fa fa-user form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback left">
+                                    <input type="email" name="email" class="form-control" placeholder="Email">
+                                    <i class="fa fa-envelope-o form-control-feedback"></i>
+                                </div>
+                                <div class="form-group has-feedback left">
+                                    <textarea class="form-control" name="message" rows="7" placeholder="MESSAGE"></textarea>
+                                    <i class="fa fa-pencil-square-o form-control-feedback"></i>
+                                </div>
+                                <button class="btn btn-primary btn-lg pull-right" type="submit">SUBMIT</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="map"></section>
+
+            <footer id="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <span class="divider grey"></span>
+                        <a href="#" class="scroll-top">
+                            <img src="img/top.png" alt="" class="top">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!--/wrap-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+
+        <!-- jQuery REVOLUTION Slider  -->
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCK_3KBHK37YnQ1wxr9fiQBF0cnP5YTeZE&sensor=true"></script>
+
+        <script src="js/script.js"></script>
+        <script src='js/jquery.flexslider.min.js'></script>
+        <script src='js/jquery.masonry.min.js'></script>
+        <script src='js/jquery.scrollto.js'></script>
+        <script src="js/waypoints.min.js"></script>
+
+        <script>
+        $(document).ready(function() {
+            appMaster.preLoader();
+            appMaster.smoothScroll();
+            appMaster.animateScript();
+            appMaster.navSpy();
+            appMaster.revSlider();
+            appMaster.stellar();
+            appMaster.skillsChart();
+            appMaster.maps();
+            appMaster.isoTop();
+            appMaster.canvasHack();
+        });
+        </script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </body>
+
+    </html>
