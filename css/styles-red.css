@@ -174,6 +174,12 @@ section#about .media .media-body .media-heading {
 section#about .media .media-body p {
   margin-top: 20px;
 }
+section#about h5 {
+  color: #555555;
+  font-size: 15px;
+  /*line-height: 22px;*/
+}
+
 section#highlights {
   padding: 60px 0;
   background: #eeeeee;
